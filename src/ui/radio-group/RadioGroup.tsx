@@ -17,7 +17,6 @@ export const RadioGroup = (props: RadioGroupProps) => {
 
 	const handleChange = (option: OptionType) => {
 		onChange?.(option);
-		console.log('!');
 	};
 
 	return (
